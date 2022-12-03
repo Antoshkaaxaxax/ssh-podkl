@@ -1,0 +1,25 @@
+1. lxd init
+2. lxc init ubuntu: 18.04 axax
+3. lxc init ubuntu: 18.04 axax1
+4. lxc start axax
+5. lxc start axax1
+6. lxc list
+7. ssh-keygen
+8. lxc exec axax /bin/bash
+9. nano /etc/ssh/sshd_config
+10. systemctl restart ssh*.service
+11. passwd root
+12. exit
+13. lxc exec axax1 /bin/bash
+14. nano /etc/ssh/sshd_config
+15. systemctl restart ssh*.service
+16. passwd root
+17. exit
+18. ssh-copy-id root@10.10.108.31
+19. ssh-copy-id root@10.10.108.181
+20. ssh root@10.10.108.31
+21. exit
+22. ssh root@10.10.108.181
+23. ssh-keygen
+24. ssh-copy-id root@10.10.108.31
+25. ssh root@10.10.108.31
